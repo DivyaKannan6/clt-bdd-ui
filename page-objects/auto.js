@@ -7,8 +7,8 @@
      url: 'https://www.autoexercise.com/',
 
      elements: {
-         Signup / Login:'/html/body/header/div/div/div/div[2]/div/ul/li[4]/a',
-         Login to your account:'/html/body/section/div/div/div[1]/div/h2',
+         SignupLogin:'/html/body/header/div/div/div/div[2]/div/ul/li[4]/a',
+         Logintoyouraccount:'/html/body/section/div/div/div[1]/div/h2',
 //         username: '//*[@id="emailInput"]',
 //         password: '//*[@id="passwordInput"]',
         // SigninBtn: '//*[@id="login-submit"]',
@@ -38,17 +38,17 @@
 //         'Kavitha Approver' : 'ADMIN1, CLT'
 //     },
     clickElement: async function(objectKey) {
-        var selector = page.costco.elements[objectKey]; 
+        var selector = page.auto.elements[objectKey]; 
         await driver.sleep(4000);
         return driver.findElement(By.xpath(selector)).click();
     },
 
-    inputUserName: async function(val) {
-        var selector = page.costco.elements['signInName']; 
-        await driver.sleep(2000);
-        return driver.findElement(selector).sendKeys(val);
+    // inputUserName: async function(val) {
+    //     var selector = page.costco.elements['signInName']; 
+    //     await driver.sleep(2000);
+    //     return driver.findElement(selector).sendKeys(val);
 
-    },
+    // },
 //     inputPassword: async function(val) {
 //         var selector = page.costco.elements['password']; 
 //         await driver.sleep(2000);

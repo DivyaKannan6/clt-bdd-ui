@@ -3,5 +3,5 @@
   @auto @atest1
     Scenario: Customer is displayed with autoexercise.com home page
        Given I am on the autoexercise portal
-         When I click on "Signup / Login"
-         Then I should see "Login to your account"
+         When I click on "SignupLogin"
+         Then I should see "Logintoyouraccount"
