@@ -1,4 +1,4 @@
-Feature: As a customer, I am able to view Kohls home page and access the option,login and place order
+ Feature: As a customer, I am able to view Kohls home page and access the option,login and place order
 
   @kohls @ktest1
 

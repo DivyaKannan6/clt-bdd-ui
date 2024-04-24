@@ -1,7 +1,7 @@
 const helpers = require("../runtime/helpers")
 module.exports = function () {
 
-    this.Given(/I am on the kohls page$/, function () {
+    this.Given('I am on the kohls page', function () {
         return helpers.loadPage(page.kohls.url);
     });
 
